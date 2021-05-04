@@ -41,7 +41,9 @@ function SimpleCounter() {
     
     return (
         <div>
+
             <h2>Simple counter</h2>
+            
             <code className={`counter ${status}`}>{count}</code>
             <br /> <br />
             {Array.from({ length: loopTime }, (_, k) => (
